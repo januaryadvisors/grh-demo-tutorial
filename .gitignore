@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+# Additional files added 
+.DS_Store
+data-raw/
+
+=======
+>>>>>>> main
 # History files
 .Rhistory
 .Rapp.history

@@ -1,6 +1,8 @@
-# grh-demo-tutorial
-Test repo for working with Good Reason Houston on data training
+# GRH Demo Tutorial Scripts
 
-Test changes
+Cleaning scripts
 
-Divia
+-   prep_sample_data:
+
+-   join_entities:
+
