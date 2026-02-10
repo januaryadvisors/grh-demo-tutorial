@@ -14,4 +14,4 @@ entities = import(here("data-raw/052025_GRH_EntitiesFile_2024-2025.csv"))
 
 tabyl(entities, FinalDistrictName)
 entities <- entities %>% 
-  filter(FinalDistrictName == "KIPP HOUSTON")
+  filter(FinalDistrictName == "HOUSTON ISD")
