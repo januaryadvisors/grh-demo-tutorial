@@ -11,7 +11,22 @@ entities <- entities %>%
   clean_names() %>% 
   select(final_district_name, houston_msa, dist_size)
 
-#TODO Join the cleaned up entities file to the sample data
+#TODO Join the cleaned up entities file to the sample data - PG
+
+entities <- entities %>% 
+  clean_names() %>% 
+  rename(dname = district_name)
+
+#Sample data is missing district ID so have to merge on dname
+
+#TODO Limit entities to district-level data
+
+
+
+sample_data <- sample_data %>% 
+  left_join(., entities, by = "dname")
+
+
 
 
 #TODO Filter the entities file to just KIPP Houston or Houston ISD (you pick)
